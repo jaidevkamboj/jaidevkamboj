@@ -26,8 +26,8 @@
 
 <!-- Banner Image -->
 <div align="center">
-  <img alt="banner" width="90%" src="https://github.com/jaidevkamboj/jaidevkamboj/assets/placeholder/header-banner" />
-  <!-- Replace with your own banner image link -->
+  <!-- REPLACE THIS BANNER URL WITH YOUR OWN -->
+  <img alt="banner" width="90%" src="https://raw.githubusercontent.com/jaidevkamboj/jaidevkamboj/main/assets/banner.png" />
 </div>
 
 ---
@@ -35,6 +35,7 @@
 <!-- About Me Section -->
 ## 👨‍💻 About Me
 
+<!-- REPLACE THIS GIF URL WITH YOUR CHOICE -->
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 I'm a passionate **WordPress Developer** with over **4 years of experience** based in India. I thrive on transforming ideas into robust, user-friendly digital solutions that deliver exceptional experiences.
@@ -115,6 +116,7 @@ I'm a passionate **WordPress Developer** with over **4 years of experience** bas
   <a href="https://github.com/jaidevkamboj/project-2">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jaidevkamboj&repo=project-2&theme=algolia&hide_border=true" />
   </a>
+ 
   
 </div>
 
