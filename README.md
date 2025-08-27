@@ -27,7 +27,7 @@
 <!-- Banner Image -->
 <div align="center">
   <!-- REPLACE THIS BANNER URL WITH YOUR OWN -->
-  <img alt="banner" width="90%" src="https://github.com/jaidevkamboj/jaidevkamboj/blob/main/Hire-a-Web-Develope.png" />
+  <img alt="banner" width="90%" src="https://github.com/jaidevkamboj/jaidevkamboj/blob/main/118.jpg" />
 </div>
 
 ---
