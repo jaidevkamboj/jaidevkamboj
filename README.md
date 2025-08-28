@@ -96,7 +96,7 @@ I'm a passionate **WordPress Developer** with over **4 years of experience** bas
   <img src="https://github-profile-trophy.vercel.app/?username=jaidevkamboj&theme=algolia&no-bg=true&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
   
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaidevkamboj&theme=react-dark&bg_color=00000000&hide_border=true&area=true" alt="GitHub Activity Graph" width="90%"/>
+  <img src="https://github.com/jaidevkamboj/wordpress-portfolio/blob/main/computer.png" alt="GitHub Activity Graph" width="90%"/>
   
 </div>
 
