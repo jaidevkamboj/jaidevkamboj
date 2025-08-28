@@ -96,7 +96,7 @@ I'm a passionate **WordPress Developer** with over **4 years of experience** bas
   <img src="https://github-profile-trophy.vercel.app/?username=jaidevkamboj&theme=algolia&no-bg=true&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
   
   <!-- Activity Graph -->
-  <img src="https://github.com/jaidevkamboj/wordpress-portfolio/blob/main/computer.png" alt="GitHub Activity Graph" width="90%"/>
+  <img src="" alt="GitHub Activity Graph" width="90%"/>
   
 </div>
 
@@ -109,7 +109,7 @@ I'm a passionate **WordPress Developer** with over **4 years of experience** bas
   
   <!-- Project 1 -->
   <a href="https://github.com/jaidevkamboj/project-1">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jaidevkamboj&repo=project-1&theme=algolia&hide_border=true" />
+    <img align="center" src="https://github.com/jaidevkamboj/wordpress-portfolio/blob/main/computer.png" />
   </a>
   
   <!-- Project 2 -->
