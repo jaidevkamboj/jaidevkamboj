@@ -114,7 +114,7 @@ I'm a passionate **WordPress Developer** with over **4 years of experience** bas
   
   <!-- Project 2 -->
   <a href="https://github.com/jaidevkamboj/project-2">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jaidevkamboj&repo=project-2&theme=algolia&hide_border=true" />
+    <img align="center" src="https://github.com/jaidevkamboj/wordpress-portfolio/blob/main/Screenshot%202025-04-28%20165924.png" />
   </a>
  
   
