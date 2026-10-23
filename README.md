@@ -1,9 +1,11 @@
 <!-- =====================================================================
-     GITHUB PROFILE README v2 — Jaidev Kamboj
-     Uses GitHub-native features: alerts, Mermaid, <picture> dark/light,
-     collapsible <details>, tables, task lists.
+     GITHUB PROFILE README v3 — Jaidev Kamboj
+     v3 adds: deeper skill breakdown, proficiency table, engineering
+     practices, real-time design rules, toolchain/debug section,
+     testing & CI, learning roadmap.
      Palette: teal #00D4AA · violet #7B61FF · orange #FF6B35 · bg #0D1117
      Search "TODO" for the spots you must fill in.
+     Review every skill and level honestly before publishing.
      ===================================================================== -->
 
 <a name="top"></a>
@@ -34,8 +36,10 @@
 <a href="#-about"><kbd>&nbsp;👋 About&nbsp;</kbd></a>
 <a href="#-what-i-do"><kbd>&nbsp;🎯 What I Do&nbsp;</kbd></a>
 <a href="#-tech-stack"><kbd>&nbsp;🧰 Stack&nbsp;</kbd></a>
+<a href="#-skill-matrix"><kbd>&nbsp;📊 Matrix&nbsp;</kbd></a>
 <a href="#-featured-projects"><kbd>&nbsp;🚀 Projects&nbsp;</kbd></a>
 <a href="#-skills"><kbd>&nbsp;🧠 Skills&nbsp;</kbd></a>
+<a href="#-engineering-practices"><kbd>&nbsp;🛠️ Practices&nbsp;</kbd></a>
 <a href="#-github-stats"><kbd>&nbsp;📈 Stats&nbsp;</kbd></a>
 <a href="#-contact"><kbd>&nbsp;🤝 Contact&nbsp;</kbd></a>
 
@@ -67,6 +71,7 @@ struct Engineer {
     const char* role  = "Embedded Software Engineer";
     const char* focus = "Firmware · Real-Time · DSP & Audio";
     const char* tools = "C/C++ · STM32 · ESP32 · FreeRTOS · JUCE";
+    const char* ethos = "Deterministic · Testable · Measured";
     bool openToWork   = true;
 };
 ```
@@ -101,21 +106,21 @@ struct Engineer {
 
 ### ⚙️
 ### Embedded & Firmware
-ARM Cortex-M, STM32, ESP32, RISC-V and Embedded Linux. Drivers, RTOS design, bootloaders and OTA, sensor integration and protocols.
+ARM Cortex-M, STM32, ESP32, RISC-V and Embedded Linux. Startup code and linker scripts, drivers, RTOS design, bootloaders and OTA, sensor integration and protocols.
 
 </td>
 <td width="33%" valign="top" align="center">
 
 ### 🎛️
 ### DSP & Audio
-Real-time audio apps and plugins in JUCE and modern C++. Low-latency processing, efficient algorithms, professional interfaces.
+Real-time audio apps and plugins in JUCE and modern C++. Low-latency, allocation-free processing, efficient algorithms, professional interfaces.
 
 </td>
 <td width="33%" valign="top" align="center">
 
 ### 🤖
 ### Robotics & IoT
-Motor and actuator control, PID loops, sensor fusion basics, UAV/drone concepts, connected devices over Wi-Fi, BLE and MQTT.
+Motor and actuator control, PID loops, sensor fusion (complementary / Kalman basics), UAV/drone concepts, connected devices over Wi-Fi, BLE and MQTT.
 
 </td>
 </tr>
@@ -143,7 +148,7 @@ flowchart LR
 <tr>
 <td width="150" valign="middle"><b>💻 Languages<br>& Tools</b></td>
 <td>
-<img src="https://skillicons.dev/icons?i=c,cpp,py,bash,cmake,git,github,linux,vscode,visualstudio,matlab&theme=dark&perline=11" alt="Languages and tools" />
+<img src="https://skillicons.dev/icons?i=c,cpp,py,bash,cmake,git,github,githubactions,docker,linux,vscode,visualstudio,matlab&theme=dark&perline=13" alt="Languages and tools" />
 </td>
 </tr>
 <tr>
@@ -155,6 +160,10 @@ flowchart LR
 <img src="https://img.shields.io/badge/RISC--V-283272?style=for-the-badge&logo=riscv&logoColor=white" alt="RISC-V">
 <img src="https://img.shields.io/badge/FreeRTOS-6DB33F?style=for-the-badge" alt="FreeRTOS">
 <img src="https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Embedded Linux">
+<img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP-IDF">
+<img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32CubeIDE">
+<img src="https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO">
+<img src="https://img.shields.io/badge/CMSIS-0091BD?style=for-the-badge&logo=arm&logoColor=white" alt="CMSIS">
 </td>
 </tr>
 <tr>
@@ -169,7 +178,34 @@ flowchart LR
 <img src="https://img.shields.io/badge/CoreAudio-999999?style=for-the-badge&logo=apple&logoColor=white" alt="CoreAudio">
 <img src="https://img.shields.io/badge/ALSA-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="ALSA">
 <img src="https://img.shields.io/badge/JACK-333333?style=for-the-badge" alt="JACK">
+<img src="https://img.shields.io/badge/FFTW-FF6B35?style=for-the-badge" alt="FFTW">
 <img src="https://img.shields.io/badge/Simulink-FF6F00?style=for-the-badge&logo=mathworks&logoColor=white" alt="Simulink">
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>🔬 Debug & Test</b></td>
+<td>
+<img src="https://img.shields.io/badge/GDB-A42E2B?style=for-the-badge&logo=gnu&logoColor=white" alt="GDB">
+<img src="https://img.shields.io/badge/OpenOCD-333333?style=for-the-badge" alt="OpenOCD">
+<img src="https://img.shields.io/badge/SWD_/_JTAG-7B61FF?style=for-the-badge" alt="SWD JTAG">
+<img src="https://img.shields.io/badge/Logic_Analyzer-00D4AA?style=for-the-badge&logoColor=black" alt="Logic analyzer">
+<img src="https://img.shields.io/badge/Oscilloscope-FF6B35?style=for-the-badge" alt="Oscilloscope">
+<img src="https://img.shields.io/badge/GoogleTest-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="GoogleTest">
+<img src="https://img.shields.io/badge/Unity_/_Ceedling-222222?style=for-the-badge" alt="Unity Ceedling">
+<img src="https://img.shields.io/badge/Valgrind-333333?style=for-the-badge" alt="Valgrind">
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>🏗️ Build & CI</b></td>
+<td>
+<img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake">
+<img src="https://img.shields.io/badge/arm--none--eabi--gcc-0091BD?style=for-the-badge&logo=arm&logoColor=white" alt="arm-none-eabi-gcc">
+<img src="https://img.shields.io/badge/Ninja-333333?style=for-the-badge" alt="Ninja">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/clang--tidy-262D3A?style=for-the-badge&logo=llvm&logoColor=white" alt="clang-tidy">
+<img src="https://img.shields.io/badge/cppcheck-00599C?style=for-the-badge" alt="cppcheck">
+<img src="https://img.shields.io/badge/Doxygen-2C4AA8?style=for-the-badge" alt="Doxygen">
 </td>
 </tr>
 <tr>
@@ -180,9 +216,36 @@ flowchart LR
 <img src="https://img.shields.io/badge/IoT-00D4AA?style=flat-square&logoColor=black" alt="IoT">
 <img src="https://img.shields.io/badge/UAV_/_Drone-FF6B35?style=flat-square" alt="UAV">
 <img src="https://img.shields.io/badge/Sensor_Integration-0A66C2?style=flat-square" alt="Sensors">
+<img src="https://img.shields.io/badge/Control_Systems-7B61FF?style=flat-square" alt="Control">
+<img src="https://img.shields.io/badge/Low--Power_Design-00D4AA?style=flat-square&logoColor=black" alt="Low power">
 </td>
 </tr>
 </table>
+
+<br>
+
+<!-- ========================= SKILL MATRIX ========================= -->
+
+## 📊 Skill Matrix
+
+A snapshot of how I use each area, from daily driver to actively growing.
+
+<!-- TODO: adjust the levels so they match your real experience. Honest levels read better to hiring managers. -->
+
+| Area | Level | Depth |
+|:--|:--|:--|
+| **C / C++ (11 → 20)** | ![](https://img.shields.io/badge/-Advanced-00D4AA?style=flat-square) | RAII, templates, `constexpr`, move semantics, lock-free patterns |
+| **Firmware (STM32 / ESP32)** | ![](https://img.shields.io/badge/-Advanced-00D4AA?style=flat-square) | HAL/LL/CMSIS, startup & linker scripts, DMA, interrupts, low power |
+| **FreeRTOS / RTOS design** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | Tasks, queues, semaphores, ISR-safe APIs, priority inversion handling |
+| **JUCE / Audio plugins** | ![](https://img.shields.io/badge/-Advanced-00D4AA?style=flat-square) | VST3 / AU / AAX, `AudioProcessorValueTreeState`, real-time-safe GUI ↔ DSP |
+| **DSP algorithms** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | Biquads, FIR/IIR, FFT, convolution, dynamics, oversampling |
+| **Communication protocols** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | UART, SPI, I²C, CAN, I²S, BLE, MQTT |
+| **Debugging & measurement** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | SWD/JTAG, GDB, HardFault analysis, logic analyzer, scope |
+| **Embedded Linux** | ![](https://img.shields.io/badge/-Working-FF6B35?style=flat-square) | Linux dev, drivers & device tree concepts, cross-compilation |
+| **RISC-V** | ![](https://img.shields.io/badge/-Working-FF6B35?style=flat-square) | Toolchains, ISA fundamentals, bring-up basics |
+| **Robotics / UAV** | ![](https://img.shields.io/badge/-Working-FF6B35?style=flat-square) | PID, sensor fusion basics, motor control, flight-controller concepts |
+
+<sub>🟢 Advanced = daily use · 🟣 Proficient = comfortable on real projects · 🟠 Working = hands-on, still deepening</sub>
 
 <br>
 
@@ -198,7 +261,7 @@ flowchart LR
 <td width="50%" valign="top">
 
 #### 🎚️ Parametric Equalizer
-Surgical 8-band EQ built for mastering work.
+Surgical 8-band EQ built for mastering work. Cascaded biquad sections with smoothed parameters for click-free automation.
 
 <img src="https://img.shields.io/badge/Complete-00D4AA?style=flat-square" alt="Complete">
 <img src="https://img.shields.io/badge/JUCE-8DC63F?style=flat-square&logoColor=black" alt="JUCE">
@@ -208,7 +271,7 @@ Surgical 8-band EQ built for mastering work.
 <td width="50%" valign="top">
 
 #### 🔊 Dynamics Compressor
-Transparent compression with character.
+Transparent compression with character. Detector design, ballistics, soft knee and lookahead.
 
 <img src="https://img.shields.io/badge/Complete-00D4AA?style=flat-square" alt="Complete">
 <img src="https://img.shields.io/badge/JUCE-8DC63F?style=flat-square&logoColor=black" alt="JUCE">
@@ -220,7 +283,7 @@ Transparent compression with character.
 <td width="50%" valign="top">
 
 #### 📊 Real-Time Analyzer
-Professional spectrum and spectrogram display.
+Professional spectrum and spectrogram display. Windowed FFT with overlap, lock-free hand-off from audio thread to GUI.
 
 <img src="https://img.shields.io/badge/Complete-00D4AA?style=flat-square" alt="Complete">
 <img src="https://img.shields.io/badge/JUCE-8DC63F?style=flat-square&logoColor=black" alt="JUCE">
@@ -230,7 +293,7 @@ Professional spectrum and spectrogram display.
 <td width="50%" valign="top">
 
 #### 🌊 Studio Reverb
-From intimate rooms to infinite halls.
+From intimate rooms to infinite halls. Diffusion networks, modulated delay lines and damping filters.
 
 <img src="https://img.shields.io/badge/In_Development-FF6B35?style=flat-square" alt="In development">
 <img src="https://img.shields.io/badge/JUCE-8DC63F?style=flat-square&logoColor=black" alt="JUCE">
@@ -276,32 +339,40 @@ From intimate rooms to infinite halls.
 <td width="33%" valign="top">
 
 **Firmware & Real-Time**
-- Bare-metal, HAL/LL drivers
-- Interrupts, DMA, timers
-- FreeRTOS tasks, queues, mutexes
-- Deterministic scheduling
-- Bootloaders & OTA updates
-- Low-power, memory-constrained design
-- JTAG/SWD debugging
+- Bare-metal, HAL/LL/CMSIS drivers
+- Startup code, vector tables, linker scripts & memory maps
+- Interrupts (NVIC priorities), DMA, timers
+- FreeRTOS tasks, queues, mutexes, event groups, software timers
+- ISR-safe API usage, priority inversion & deadlock avoidance
+- Deterministic scheduling, WCET & stack-usage analysis
+- Bootloaders, dual-bank OTA, firmware signing & CRC checks
+- Watchdogs, brown-out handling, fault recovery
+- Low-power modes, memory-constrained design
+- JTAG/SWD, HardFault & fault-register analysis
 
 </td>
 <td width="33%" valign="top">
 
 **Hardware Interfacing**
 - UART, SPI, I²C, CAN
-- ADC, DAC, PWM, GPIO
-- I²S digital audio
-- Wi-Fi, BLE, MQTT (ESP32)
-- Sensor integration
+- USB (CDC / Audio class basics)
+- ADC, DAC, PWM, GPIO, input capture
+- I²S / TDM digital audio, codecs
+- Wi-Fi, BLE (GATT), MQTT (ESP32)
+- Sensor drivers: IMU, barometer, GPS, ToF, temperature
+- Reading datasheets, schematics & timing diagrams
+- Signal debugging with logic analyzer & oscilloscope
 
 </td>
 <td width="33%" valign="top">
 
 **Robotics & Devices**
-- Motor & actuator control
-- PID control loops
-- Sensor fusion basics
-- Flight-controller concepts
+- Motor & actuator control (DC, BLDC, stepper, servo)
+- PID control loops, tuning & anti-windup
+- Sensor fusion (complementary filter, Kalman basics)
+- Attitude estimation from IMU data
+- Flight-controller concepts, ESC & PWM signalling
+- Telemetry & serial command protocols
 - Hardware–software co-design
 
 </td>
@@ -320,40 +391,178 @@ From intimate rooms to infinite halls.
 
 **C++ & Engineering**
 - Modern C++ (11/14/17/20)
-- RAII, templates, `constexpr`
-- Move semantics & concurrency
-- CMake & cross-compilation
-- Git workflow & code review
-- Linux development
-- Python scripting & automation
+- RAII, templates, `constexpr`, concepts
+- Move semantics, smart pointers & ownership design
+- `std::atomic`, memory ordering, lock-free SPSC queues
+- Embedded C++ without exceptions / RTTI, static allocation
+- Memory-pool and ring-buffer designs
+- CMake, presets & cross-compilation
+- Git workflow, code review, semantic versioning
+- Linux development & shell scripting
+- Python scripting, tooling & test automation
 
 </td>
 <td width="33%" valign="top">
 
 **DSP & Audio**
-- FIR/IIR filter design
-- FFT analysis (FFTW)
-- Dynamics, convolution, pitch detection
-- VST3 / AU / AAX architecture
-- Thread-safe real-time audio pipelines
-- SIMD optimization
+- FIR/IIR filter design, biquad topologies
+- FFT analysis (FFTW), windowing, overlap-add
+- Fast & partitioned convolution
+- Dynamics, delay, reverb, pitch detection
+- Oversampling & anti-aliasing for nonlinear processing
+- Parameter smoothing, denormal handling
+- Level metering (peak / RMS / LUFS concepts)
+- VST3 / AU / AAX architecture, host automation
+- Thread-safe, allocation-free real-time audio pipelines
+- SIMD optimization, cache-aware data layout
 
 </td>
 <td width="33%" valign="top">
 
 **MATLAB Workflow**
 - Signal Processing & Audio Toolboxes
-- Filter Designer
-- Algorithm prototyping
-- Test bench creation
+- Filter Designer & fixed-point analysis
+- Algorithm prototyping before C++ port
+- Test bench & golden-reference creation
 - Simulink & C code generation
-- Data visualization
+- Data visualization & measurement scripts
 
 </td>
 </tr>
 </table>
 
 </details>
+
+<details>
+<summary><b>🔌 Protocols & Connectivity</b> &nbsp;·&nbsp; <b>🔐 Reliability & Security</b> &nbsp;·&nbsp; <b>⚡ Performance</b></summary>
+<br>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Protocols & Connectivity**
+- Custom framing: COBS / SLIP, CRC16/32
+- Modbus RTU basics
+- MQTT topics, QoS, retained messages
+- BLE GATT services & characteristics
+- OTA over Wi-Fi / BLE
+- State-machine driven protocol stacks
+
+</td>
+<td width="33%" valign="top">
+
+**Reliability & Security**
+- Defensive coding, input validation
+- MISRA C/C++ guidelines awareness
+- Static analysis (clang-tidy, cppcheck)
+- Sanitizers (ASan / UBSan) on host builds
+- Secure boot & signed update concepts
+- Graceful degradation & fail-safe states
+
+</td>
+<td width="33%" valign="top">
+
+**Performance**
+- Profiling with cycle counters (DWT) & trace
+- Fixed-point vs. floating-point trade-offs
+- CMSIS-DSP & hardware FPU usage
+- Compiler flags, LTO & size/speed tuning
+- Linker map & binary-size analysis
+- Benchmarking and regression tracking
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<br>
+
+<!-- ===================== ENGINEERING PRACTICES ===================== -->
+
+## 🛠️ Engineering Practices
+
+How I try to build software that still works at 3 a.m. in the field.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**⏱️ Real-time rules I follow**
+
+```cpp
+// audio / ISR hot path
+// ✘ no new / delete / malloc
+// ✘ no locks, no blocking I/O, no logging
+// ✘ no exceptions, no unbounded loops
+// ✔ pre-allocate in prepare()/init()
+// ✔ lock-free queues for cross-thread data
+// ✔ smooth parameters, never jump them
+// ✔ measure worst case, not average
+```
+
+</td>
+<td width="50%" valign="top">
+
+**🧪 Quality pipeline**
+
+```mermaid
+%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#0D1117','primaryBorderColor':'#00D4AA','primaryTextColor':'#ffffff','lineColor':'#7B61FF','fontFamily':'monospace'}}}%%
+flowchart TD
+    A["✍️ Commit"] --> B["🔍 clang-tidy · cppcheck"]
+    B --> C["🧪 Host unit tests<br/>GoogleTest · Unity"]
+    C --> D["🏗️ Cross-build<br/>arm-none-eabi-gcc"]
+    D --> E["📦 Size & map report"]
+    E --> F["🔬 HIL / bench test"]
+```
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📐 Design principles</b></summary>
+<br>
+
+- **Separate hardware from logic.** A thin HAL boundary lets the core run (and be tested) on a PC.
+- **Static over dynamic.** Fixed-size buffers and pools beat the heap on constrained targets.
+- **Explicit state machines** for protocols, power modes and error handling, instead of tangled flags.
+- **Measure first.** Cycle counters, scope toggles and trace before any optimization.
+- **Fail safe.** Watchdogs, timeouts and defined fallback states for every external dependency.
+- **Readable beats clever.** Code is reviewed by humans; document the *why* with Doxygen and short ADR notes.
+
+</details>
+
+<details>
+<summary><b>🔬 Typical debugging workflow</b></summary>
+<br>
+
+1. Reproduce reliably, then shrink the failing case.
+2. Check the physical layer first: power, clocks, pull-ups, signal integrity on a scope or logic analyzer.
+3. Inspect fault registers (CFSR, HFSR, BFAR) and the stacked PC on a HardFault.
+4. Use GDB over SWD with watchpoints for memory corruption; trace for timing issues.
+5. Add a regression test or assertion so the bug stays fixed.
+
+</details>
+
+<br>
+
+<!-- ===================== LEARNING ROADMAP ===================== -->
+
+## 🌱 Currently Levelling Up
+
+<!-- TODO: tick or edit these to match what you are actually working on. -->
+
+- [x] Real-time audio plugins with JUCE (VST3 / AU / AAX)
+- [x] FreeRTOS-based firmware on STM32 and ESP32
+- [ ] Zephyr RTOS and devicetree-based firmware
+- [ ] Rust for embedded (`embedded-hal`, Embassy)
+- [ ] Embedded Linux: Yocto / Buildroot, kernel drivers
+- [ ] Hardware-in-the-loop CI for firmware
+- [ ] PX4 / ArduPilot internals for UAV work
+- [ ] SIMD (NEON / AVX) optimized DSP kernels
+- [ ] Machine learning on MCUs (TinyML, CMSIS-NN)
 
 <br>
 
