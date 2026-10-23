@@ -1,6 +1,6 @@
 <!-- =====================================================================
-     GITHUB PROFILE README v3 — Jaidev Kamboj
-     v3 adds: deeper skill breakdown, proficiency table, engineering
+     GITHUB PROFILE README v4 — Jaidev Kamboj
+     v4 adds: R&D, platforms, audio UI, working style, more tooling badges. v3 added: deeper skill breakdown, proficiency table, engineering
      practices, real-time design rules, toolchain/debug section,
      testing & CI, learning roadmap.
      Palette: teal #00D4AA · violet #7B61FF · orange #FF6B35 · bg #0D1117
@@ -12,14 +12,14 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:7B61FF,100:00D4AA&height=240&section=header&text=Jaidev%20Kamboj&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Embedded%20Software%20Engineer%20%C2%B7%20Real-Time%20Systems%20%C2%B7%20DSP%20%26%20Audio&descSize=17&descAlignY=60&animation=twinkling" width="100%" alt="Jaidev Kamboj" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:7B61FF,100:00D4AA&height=240&section=header&text=Jaidev%20Kamboj&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Embedded%20Software%20Engineer%20%C2%B7%20C%2FC%2B%2B%20R%26D%20%C2%B7%20Real-Time%20Systems%20%C2%B7%20DSP%20%26%20JUCE&descSize=17&descAlignY=60&animation=twinkling" width="100%" alt="Jaidev Kamboj" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1200&color=00D4AA&center=true&vCenter=true&width=720&height=36&lines=Modern+C%2B%2B+%C2%B7+Firmware+%C2%B7+Real-Time+Systems;STM32+%C2%B7+ESP32+%C2%B7+ARM+Cortex-M+%C2%B7+RISC-V;FreeRTOS+%C2%B7+Embedded+Linux;JUCE+%C2%B7+DSP+%C2%B7+VST3+%2F+AU+%2F+AAX;Robotics+%C2%B7+IoT+%C2%B7+UAV+%2F+Drone+Systems" alt="Typing animation" />
 
 <br>
 
 <a href="mailto:jaidevkamboj4g@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://www.linkedin.com/in/jai-dev-wordpress/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/jaidevkamboj/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://github.com/jaidevkamboj?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
 <!-- TODO: replace YOUR_PORTFOLIO_URL with your real portfolio, or delete this line -->
 <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-00D4AA?style=for-the-badge&logo=firefox&logoColor=0D1117" alt="Portfolio"></a>
@@ -164,6 +164,9 @@ flowchart LR
 <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32CubeIDE">
 <img src="https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO">
 <img src="https://img.shields.io/badge/CMSIS-0091BD?style=for-the-badge&logo=arm&logoColor=white" alt="CMSIS">
+<img src="https://img.shields.io/badge/STM32CubeMX-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32CubeMX">
+<img src="https://img.shields.io/badge/HAL_/_LL-03234B?style=for-the-badge" alt="HAL LL">
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
 </td>
 </tr>
 <tr>
@@ -179,6 +182,10 @@ flowchart LR
 <img src="https://img.shields.io/badge/ALSA-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="ALSA">
 <img src="https://img.shields.io/badge/JACK-333333?style=for-the-badge" alt="JACK">
 <img src="https://img.shields.io/badge/FFTW-FF6B35?style=for-the-badge" alt="FFTW">
+<img src="https://img.shields.io/badge/Projucer-8DC63F?style=for-the-badge&logoColor=black" alt="Projucer">
+<img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" alt="OpenGL">
+<img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg">
+<img src="https://img.shields.io/badge/Eigen-333333?style=for-the-badge" alt="Eigen">
 <img src="https://img.shields.io/badge/Simulink-FF6F00?style=for-the-badge&logo=mathworks&logoColor=white" alt="Simulink">
 </td>
 </tr>
@@ -193,6 +200,9 @@ flowchart LR
 <img src="https://img.shields.io/badge/GoogleTest-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="GoogleTest">
 <img src="https://img.shields.io/badge/Unity_/_Ceedling-222222?style=for-the-badge" alt="Unity Ceedling">
 <img src="https://img.shields.io/badge/Valgrind-333333?style=for-the-badge" alt="Valgrind">
+<img src="https://img.shields.io/badge/Visual_Studio_Debugger-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="VS Debugger">
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark">
+<img src="https://img.shields.io/badge/Serial_Terminals-333333?style=for-the-badge" alt="Serial terminals">
 </td>
 </tr>
 <tr>
@@ -206,6 +216,8 @@ flowchart LR
 <img src="https://img.shields.io/badge/clang--tidy-262D3A?style=for-the-badge&logo=llvm&logoColor=white" alt="clang-tidy">
 <img src="https://img.shields.io/badge/cppcheck-00599C?style=for-the-badge" alt="cppcheck">
 <img src="https://img.shields.io/badge/Doxygen-2C4AA8?style=for-the-badge" alt="Doxygen">
+<img src="https://img.shields.io/badge/Make-333333?style=for-the-badge&logo=gnu&logoColor=white" alt="Make">
+<img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown">
 </td>
 </tr>
 <tr>
@@ -241,6 +253,9 @@ A snapshot of how I use each area, from daily driver to actively growing.
 | **DSP algorithms** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | Biquads, FIR/IIR, FFT, convolution, dynamics, oversampling |
 | **Communication protocols** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | UART, SPI, I²C, CAN, I²S, BLE, MQTT |
 | **Debugging & measurement** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | SWD/JTAG, GDB, HardFault analysis, logic analyzer, scope |
+| **C/C++ R&D & prototyping** | ![](https://img.shields.io/badge/-Advanced-00D4AA?style=flat-square) | Algorithm research, MATLAB → C++ ports, benchmarking, numerical accuracy |
+| **Python tooling & automation** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | Test scripts, data analysis, serial/log tooling, build helpers |
+| **Git / CMake / CI** | ![](https://img.shields.io/badge/-Proficient-7B61FF?style=flat-square) | Branching workflows, reproducible builds, GitHub Actions |
 | **Embedded Linux** | ![](https://img.shields.io/badge/-Working-FF6B35?style=flat-square) | Linux dev, drivers & device tree concepts, cross-compilation |
 | **RISC-V** | ![](https://img.shields.io/badge/-Working-FF6B35?style=flat-square) | Toolchains, ISA fundamentals, bring-up basics |
 | **Robotics / UAV** | ![](https://img.shields.io/badge/-Working-FF6B35?style=flat-square) | PID, sensor fusion basics, motor control, flight-controller concepts |
@@ -477,6 +492,65 @@ From intimate rooms to infinite halls. Diffusion networks, modulated delay lines
 
 </details>
 
+<details>
+<summary><b>🔬 R&D & Algorithms</b> &nbsp;·&nbsp; <b>🖥️ Platforms & OS</b> &nbsp;·&nbsp; <b>🎨 Audio UI</b></summary>
+<br>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**R&D & Algorithms**
+- Turning papers and specs into working C/C++
+- MATLAB / Python prototype → optimized C++ port
+- Numerical stability, precision & rounding analysis
+- Data structures for real-time use (ring buffers, pools, queues)
+- Profiling, benchmarking & regression tracking
+- Test vectors & golden-reference validation
+- Technical documentation & design notes
+
+</td>
+<td width="33%" valign="top">
+
+**Platforms & OS**
+- Windows, macOS and Linux development
+- Bare-metal and RTOS targets
+- Embedded Linux user-space & cross-compilation
+- Threads, mutexes, condition variables, atomics
+- Audio drivers & APIs: ASIO, WASAPI, CoreAudio, ALSA, JACK
+- Plugin hosts & DAW compatibility testing
+- Packaging & cross-platform builds with CMake
+
+</td>
+<td width="33%" valign="top">
+
+**Audio UI & Visualization**
+- JUCE `Component`, `LookAndFeel`, custom painting
+- OpenGL-accelerated waveform & spectrum rendering
+- Meters, knobs, curves & spectrum displays
+- Message-thread vs. audio-thread separation
+- Preset management & parameter state (`ValueTree`)
+- Responsive, resizable plugin interfaces
+- Accessible, DAW-friendly UX
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>🤝 Working Style</b></summary>
+<br>
+
+- **Problem solving:** breaking complex hardware/software issues into measurable hypotheses
+- **Ownership:** from requirements and design through bring-up, testing and release
+- **Collaboration:** clear code reviews, readable commits and handover-ready documentation
+- **Learning:** quickly reading datasheets, reference manuals, RFCs and papers
+- **Communication:** explaining trade-offs between hardware, firmware and DSP teams
+
+</details>
+
 <br>
 
 <!-- ===================== ENGINEERING PRACTICES ===================== -->
@@ -611,7 +685,7 @@ flowchart TD
 <div align="center">
 
 <a href="mailto:jaidevkamboj4g@gmail.com"><img src="https://img.shields.io/badge/jaidevkamboj4g@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://www.linkedin.com/in/jai-dev-wordpress/"><img src="https://img.shields.io/badge/LinkedIn-Jai_Dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/jaidevkamboj/"><img src="https://img.shields.io/badge/LinkedIn-Jaidev_Kamboj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 <br><br>
 
