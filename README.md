@@ -20,6 +20,7 @@
 
 <a href="mailto:jaidevkamboj4g@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://www.linkedin.com/in/jaidevkamboj/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+
 <a href="https://github.com/jaidevkamboj?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
 <!-- TODO: replace YOUR_PORTFOLIO_URL with your real portfolio, or delete this line -->
 <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-00D4AA?style=for-the-badge&logo=firefox&logoColor=0D1117" alt="Portfolio"></a>
