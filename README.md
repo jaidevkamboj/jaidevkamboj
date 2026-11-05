@@ -384,18 +384,18 @@ Switchable EQ view on the same plugin: a live tone-stack response curve with dra
 
 *The signal-processing building blocks behind my plugins and firmware — prototyped in MATLAB / Python, then ported to allocation-free C++.*
 
-<img src="assets/dsp-filters.svg" width="100%" alt="Biquad filter family magnitude responses">
+<img src="dsp-filters.svg" width="100%" alt="Biquad filter family magnitude responses">
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/dsp-dynamics.svg" width="100%" alt="Compressor transfer curve and attack/release ballistics">
+<img src="dsp-dynamics.svg" width="100%" alt="Compressor transfer curve and attack/release ballistics">
 
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/dsp-fft.svg" width="100%" alt="Windowed FFT with overlapping Hann windows and magnitude spectrum">
+<img src="dsp-fft.svg" width="100%" alt="Windowed FFT with overlapping Hann windows and magnitude spectrum">
 
 </td>
 </tr>
