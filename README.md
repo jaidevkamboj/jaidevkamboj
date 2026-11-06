@@ -277,7 +277,7 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/dj-player.svg" width="100%" alt="DJ Player decks, waveforms and mixer">
+<img src="dj-player.svg" width="100%" alt="DJ Player decks, waveforms and mixer">
 
 #### 🎧 DJ Player
 Flagship JUCE-based DJ application, shipping as Standalone and VST3, with real-time audio, waveform display and a custom interface.
@@ -289,7 +289,7 @@ Flagship JUCE-based DJ application, shipping as Standalone and VST3, with real-t
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/lumen-eq.svg" width="100%" alt="Lumen 7-band parametric EQ curve and knobs">
+<img src="lumen-eq.svg" width="100%" alt="Lumen 7-band parametric EQ curve and knobs">
 
 #### 💡 Lumen — 7-Band Parametric EQ
 HPF, low shelf, three peaking bands, high shelf and LPF with a custom-drawn control set (knobs, combo boxes, toggles) and a consistent visual theme.
@@ -303,7 +303,7 @@ HPF, low shelf, three peaking bands, high shelf and LPF with a custom-drawn cont
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/stm32-drone.svg" width="100%" alt="STM32 drone signal path diagram">
+<img src="stm32-drone.svg" width="100%" alt="STM32 drone signal path diagram">
 
 #### 🚁 STM32 Drone Firmware
 Flight-controller experiments on an STM32F103C8T6 "Blue Pill" with an SSD1306 OLED status display and FlySky FS-i6 PWM receiver input.
@@ -315,7 +315,7 @@ Flight-controller experiments on an STM32F103C8T6 "Blue Pill" with an SSD1306 OL
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/analyzer.svg" width="100%" alt="Spectrum analyzer and spectrogram">
+<img src="analyzer.svg" width="100%" alt="Spectrum analyzer and spectrogram">
 
 #### 📊 Real-Time Analyzer
 Spectrum and spectrogram display with overlapped, windowed FFT and a lock-free hand-off from the audio thread to the GUI.
@@ -329,7 +329,7 @@ Spectrum and spectrogram display with overlapped, windowed FFT and a lock-free h
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/amplifier.svg" width="100%" alt="Amplifier plugin, amp mode with gain, tone and master controls">
+<img src="amplifier.svg" width="100%" alt="Amplifier plugin, amp mode with gain, tone and master controls">
 
 #### 🎸 Amplifier — Amp Mode
 JUCE amplifier plugin with gain, bass / mid / treble, presence and master controls, drive and bright switches, a soft-clip stage and an output meter.
@@ -341,7 +341,7 @@ JUCE amplifier plugin with gain, bass / mid / treble, presence and master contro
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/amplifier-eq-mode.svg" width="100%" alt="Amplifier plugin, EQ mode with frequency response and graphic trim">
+<img src="amplifier-eq-mode.svg" width="100%" alt="Amplifier plugin, EQ mode with frequency response and graphic trim">
 
 #### 🎚️ Amplifier — EQ Mode
 Switchable EQ view on the same plugin: a live tone-stack response curve with draggable bass, mid, treble and presence nodes, plus an 8-band graphic trim.
